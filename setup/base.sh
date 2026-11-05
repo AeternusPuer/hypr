@@ -150,6 +150,7 @@ install_base_packages(){
   run_loading "$install nwg-displays" 
   run_loading "$install slurp"                        # Утилита для выбора областей экрана
   run_loading "$install grim"                         # Cоздания скриншотов
+  run_loading "$install wl-clipboard"
   run_loading "$install qt5-wayland"
   run_loading "$install qt6-wayland" 
   run_loading "$install xdg-desktop-portal-hyprland" 
