@@ -168,6 +168,8 @@ install_base_packages(){
   # Прочее
   run_loading "$install nano"
   run_loading "$install obsidian"
+  run_loading "$install thunar-archive-plugin"
+  run_loading "$install xarchiver"
   # Оформление
   run_loading "$install breeze-gtk"
 }
